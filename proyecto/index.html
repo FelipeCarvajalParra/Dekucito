@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="img/logo.png" />
+    <title>Hola!</title>
+
+    <!-- Conexion a fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Bebas+Neue&family=Cedarville+Cursive&family=Coustard:wght@400;900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Freeman&family=Gabarito:wght@400..900&family=Goudy+Bookletter+1911&family=Kadwa:wght@400;700&family=Passion+One:wght@400;700;900&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Bebas+Neue&family=Cedarville+Cursive&family=Coustard:wght@400;900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Freeman&family=Gabarito:wght@400..900&family=Goudy+Bookletter+1911&family=Kadwa:wght@400;700&family=Passion+One:wght@400;700;900&family=Press+Start+2P&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+
+    <!-- Conexion a hojas de estilos -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+
+    <div class="contenido">
+        <header class="navegacion">
+            <nav class="navegacion-items">
+                <div class="encabezado" >
+                    <img src="img/logo.png" width="100px" height="100px">
+                </div>
+                <div class="navegacion2">
+                    <a href="#" onclick="alerta_contador()" class="item_nav">Contador</a>
+                    <a href="resumen.html" class="item_nav">Resumen</a>
+                    <a class="item_nav" id="counter" onclick="validation()">0/15</a>
+                    <a href="#" onclick="mostrarFrase()" class="item_nav" id="nav-ico"></a>
+                    <a href="#" onclick="mostrarPlaylist()" class="item_nav"><i class='bx bxl-spotify bx-sm' style='color:#24bb59'></i></a>
+                    
+                </div>
+            </nav>
+        </header>
+        <main style="color: aliceblue;" class="cuerpo">
+            <div class="contador1">
+                <p id="contador1"></p>
+
+                <div class="vector"></div>
+            </div>
+            <div id="contador2">
+                <a href="#">Y estO?</a>
+    <style>
+        body {
+            position: relative;
+            overflow: hidden; /* Para evitar desplazamiento de la página */
+        }
+        .random-image {
+            position: absolute;
+        }
+    </style>
+   
+            </div>
+        </main>
+    </div>
+
+    <div id="particles-js"></div>
+
+</body>
+    <script src="js/particles.min.js"></script>
+    <script src="js/particlesjs-config.js"></script>
+    <script src="js/contadores.js"></script>
+    <script src="js/emoji.js"></script>
+    <script src="js/alerta.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="js/preguntas.js"></script>
+</html>
+
